@@ -1,0 +1,12 @@
+﻿@model Vidly_2.Models.CustomerModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>@Model.Name</h2>
+<ul>
+    <li>@Model.Name</li>
+    <li>@Model.Birthday.ToString("dd/MM/yyyy")</li>
+    <li>@Model.MembershipType.Name</li>
+</ul>
+
+
