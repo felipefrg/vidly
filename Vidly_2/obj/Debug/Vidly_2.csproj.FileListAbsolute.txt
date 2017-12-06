@@ -76,3 +76,4 @@ E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.CreateMembershipT
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.SeedMembershipType.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.AlterMembershipTypeNameTable.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.AddMembershipTypeInCustomerModel.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_IsSubscribedToNewsLetter_Property.resources

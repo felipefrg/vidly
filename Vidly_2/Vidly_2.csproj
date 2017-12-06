@@ -207,6 +207,10 @@
     <Compile Include="Migrations\201712042359106_AddMembershipTypeInCustomerModel.Designer.cs">
       <DependentUpon>201712042359106_AddMembershipTypeInCustomerModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712061749365_Add_IsSubscribedToNewsLetter_Property.cs" />
+    <Compile Include="Migrations\201712061749365_Add_IsSubscribedToNewsLetter_Property.Designer.cs">
+      <DependentUpon>201712061749365_Add_IsSubscribedToNewsLetter_Property.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CustomerModel.cs" />
@@ -216,6 +220,7 @@
     <Compile Include="Models\MovieModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\CustomerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-lumen.css" />
@@ -277,6 +282,7 @@
     <Content Include="Views\Customer\Detail.cshtml" />
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Movie\Detail.cshtml" />
+    <Content Include="Views\Customer\FormCustomer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -313,6 +319,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712042359106_AddMembershipTypeInCustomerModel.resx">
       <DependentUpon>201712042359106_AddMembershipTypeInCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712061749365_Add_IsSubscribedToNewsLetter_Property.resx">
+      <DependentUpon>201712061749365_Add_IsSubscribedToNewsLetter_Property.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

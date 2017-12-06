@@ -22,10 +22,14 @@ namespace Vidly_2.Models
         public string LastName { get; set; }
 
         [Required]
+        [Display(Name = "Date of Birth")]
         public DateTime Birthday { get; set; }
 
         [Required]
         public byte MembershiptypeId { get; set; }
         public MembershipTypeModel MembershipType { get; set; }
+
+
+        public bool IsSubscribedToNewsLetter { get; set; }
     }
 }   
