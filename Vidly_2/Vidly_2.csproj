@@ -211,9 +211,34 @@
     <Compile Include="Migrations\201712061749365_Add_IsSubscribedToNewsLetter_Property.Designer.cs">
       <DependentUpon>201712061749365_Add_IsSubscribedToNewsLetter_Property.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712070042362_Alter_datatype_PropertyID_from_byte_to_int.cs" />
+    <Compile Include="Migrations\201712070042362_Alter_datatype_PropertyID_from_byte_to_int.Designer.cs">
+      <DependentUpon>201712070042362_Alter_datatype_PropertyID_from_byte_to_int.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712070103093_ReleaseDateProperty_MovieModel.cs" />
+    <Compile Include="Migrations\201712070103093_ReleaseDateProperty_MovieModel.Designer.cs">
+      <DependentUpon>201712070103093_ReleaseDateProperty_MovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712070105389_Create_GenreModel.cs" />
+    <Compile Include="Migrations\201712070105389_Create_GenreModel.Designer.cs">
+      <DependentUpon>201712070105389_Create_GenreModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712070118506_Seed_GenreTable.cs" />
+    <Compile Include="Migrations\201712070118506_Seed_GenreTable.Designer.cs">
+      <DependentUpon>201712070118506_Seed_GenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712070133228_Add_GenreProperty_MovieModel.cs" />
+    <Compile Include="Migrations\201712070133228_Add_GenreProperty_MovieModel.Designer.cs">
+      <DependentUpon>201712070133228_Add_GenreProperty_MovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712070136593_Add_GenreProperty_MovieModel1.cs" />
+    <Compile Include="Migrations\201712070136593_Add_GenreProperty_MovieModel1.Designer.cs">
+      <DependentUpon>201712070136593_Add_GenreProperty_MovieModel1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CustomerModel.cs" />
+    <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipTypeModel.cs" />
@@ -221,6 +246,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\CustomerViewModel.cs" />
+    <Compile Include="ViewModel\MovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-lumen.css" />
@@ -283,6 +309,7 @@
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Movie\Detail.cshtml" />
     <Content Include="Views\Customer\FormCustomer.cshtml" />
+    <Content Include="Views\Movie\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -322,6 +349,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712061749365_Add_IsSubscribedToNewsLetter_Property.resx">
       <DependentUpon>201712061749365_Add_IsSubscribedToNewsLetter_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070042362_Alter_datatype_PropertyID_from_byte_to_int.resx">
+      <DependentUpon>201712070042362_Alter_datatype_PropertyID_from_byte_to_int.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070103093_ReleaseDateProperty_MovieModel.resx">
+      <DependentUpon>201712070103093_ReleaseDateProperty_MovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070105389_Create_GenreModel.resx">
+      <DependentUpon>201712070105389_Create_GenreModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070118506_Seed_GenreTable.resx">
+      <DependentUpon>201712070118506_Seed_GenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070133228_Add_GenreProperty_MovieModel.resx">
+      <DependentUpon>201712070133228_Add_GenreProperty_MovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712070136593_Add_GenreProperty_MovieModel1.resx">
+      <DependentUpon>201712070136593_Add_GenreProperty_MovieModel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

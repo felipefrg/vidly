@@ -28,6 +28,7 @@ namespace Vidly_2.Models
         public DbSet<MovieModel> Movie { get; set; }
         public DbSet<CustomerModel> Customer { get; set; }
         public DbSet<MembershipTypeModel> MembershipType { get; set; }
+        public DbSet<GenreModel> GenreModel { get; set; }
 
         public static ApplicationDbContext Create()
         {

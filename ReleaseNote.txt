@@ -1,0 +1,11 @@
+Release Note
+
+07/12/2017
+MoviePage
+- Implemented Data Annotations in MovieModel
+- Client-side validation
+- Anti-forgery Tokens
+
+
+06/12/2017
+- Created Page Movie

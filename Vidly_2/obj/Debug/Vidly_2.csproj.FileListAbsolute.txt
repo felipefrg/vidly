@@ -77,3 +77,9 @@ E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.SeedMembershipTyp
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.AlterMembershipTypeNameTable.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.AddMembershipTypeInCustomerModel.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_IsSubscribedToNewsLetter_Property.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Alter_datatype_PropertyID_from_byte_to_int.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.ReleaseDateProperty_MovieModel.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Create_GenreModel.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Seed_GenreTable.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_GenreProperty_MovieModel.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_GenreProperty_MovieModel1.resources

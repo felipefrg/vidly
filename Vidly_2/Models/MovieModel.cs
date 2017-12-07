@@ -11,10 +11,19 @@ namespace Vidly_2.Models
     public class MovieModel
     {        
         [Required]
-        public byte Id { get; set; }
+        public int Id { get; set; }
             
         [Required]
-        [StringLength(250)]
+        [StringLength(maximumLength: 250, MinimumLength = 1)]
         public string Name { get; set; }
+
+        [Required]
+        [Display(Name = "Release Date")]        
+        public DateTime ReleaseDate { get; set; }
+        
+        [Required]
+        [Display(Name = "Genre Type")]
+        public int GenreId { get; set; }
+        public GenreModel Genre { get; set; }
     }
 }
