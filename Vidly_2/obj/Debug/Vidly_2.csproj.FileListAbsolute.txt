@@ -83,3 +83,11 @@ E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Create_GenreModel
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Seed_GenreTable.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_GenreProperty_MovieModel.resources
 E:\Projetos\Udemy\Vidly_2\Vidly_2\obj\Debug\Vidly_2.Migrations.Add_GenreProperty_MovieModel1.resources
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Net.Http.Formatting.dll
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Web.Http.dll
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Web.Http.WebHost.dll
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Net.Http.Formatting.xml
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Web.Http.xml
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\System.Web.Http.WebHost.xml
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\AutoMapper.dll
+E:\Projetos\Udemy\Vidly_2\Vidly_2\bin\AutoMapper.xml

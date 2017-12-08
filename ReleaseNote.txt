@@ -1,5 +1,8 @@
 Release Note
 
+08/12/2017
+Implemented WebApi Service
+
 07/12/2017
 MoviePage
 - Implemented Data Annotations in MovieModel
