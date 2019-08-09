@@ -1,6 +1,6 @@
 Vidly
 
-A project to beginners who want learn/teach more about ASP.NET MVC5
+A project for beginners who want learn/teach more about ASP.NET MVC5
 
 Inside this project you'll see
 
